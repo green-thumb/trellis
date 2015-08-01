@@ -5,10 +5,6 @@ import (
   "net/http"
   "flag"    
   "log"
-  //"strings"
-  //"go/build"
-  //"path/filepath"
-  //"html/template"   
   "database/sql"
   _ "github.com/go-sql-driver/mysql" 
   "github.com/gorilla/sessions"   
@@ -22,7 +18,6 @@ import (
   "docker_app/golib/search"
   "docker_app/golib/user"
   "docker_app/golib/auth"
-  // "time"
 )
 
 //"constant" variables to be used throughout the program
@@ -83,7 +78,7 @@ func main() {
 
 
   //serve static assets
-  http.Handle("/", http.FileServer(http.Dir("./pub/build")))
+  http.Handle("/", http.FileServer(http.Dir("./build")))
 
 
   //TODO: make urls more RESTful

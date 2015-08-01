@@ -1,0 +1,525 @@
+#content h1{
+  text-align:center;
+}
+
+body{
+  /*background-image: url("../assets/animus-mix.gif");*/
+  /*background-repeat: repeat;*/
+  margin-top:55px;
+}
+
+.container-fluid{
+  margin:0;
+  padding:0;
+}
+
+.col-sm-10{
+  /*margin-left:10px;*/
+  padding-left:5%;
+}
+
+.col-sm-2{
+  margin-right:5%;
+  padding-right:5%;
+}
+
+h1,h2,h3,p,a,td{
+  font-family:'century gothic';
+}
+
+h2{
+  margin:0;
+}
+
+
+
+/* Profile Page */
+
+.profile img{
+  width:200px;
+  height:200px;
+}
+
+.profile p{
+  color:black;
+}
+
+.profile .btn{
+  margin-right:5px;
+}
+
+.ReactModal__Content{
+  width:35%;
+  height:83%;
+  margin-top:50px;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.sendMsg h2{
+  margin-bottom:20px;
+}
+
+.sendMsg input[type="textarea"]{
+  width:400px;
+  height:400px;
+}
+
+.sendMsg input[type="text"]{
+  width:400px;
+  margin-bottom:10px;
+}
+
+.sendMsg button{
+  width:80px;
+}
+
+.sendMsg .close{
+  float:right;
+  margin-top:-60px;
+  width:80px;
+  margin-left:10px;
+}
+
+.sendMsg .submit{
+
+}
+
+/* User Page */
+
+.chatIcon{
+  font-size:20px;
+  color:green;
+  cursor:pointer;
+}
+
+.messageBox{
+  font-size:20px;
+  color:red;
+  cursor:pointer;
+}
+
+.chatbox{
+  width:200px;
+  height:200px;
+  position:fixed;
+  left:82%;
+  top:10%;
+  padding:5px;
+  box-shadow:-1px 1px 3px 1px lightgrey;
+  background-color:white;
+}
+
+.chatbox input{
+  width:100%;
+}
+
+.chatbox ul{
+  margin:0;
+  padding:0;
+  height:87%;
+  list-style: none;
+}
+
+/* Navigation Bar */
+
+.navbar input{
+  width:150px;
+  display:inline-block;
+  text-align:center;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+.navbar button{
+  margin-top:10px;
+  margin-right:20px;
+  background-color:black;
+}
+
+.navbar-header a{
+  margin-left:20px;
+}
+
+.navbar-form .form-control{
+  width: 150px;
+}
+
+
+.btn{
+  margin-right:5px;
+  border-radius:0px;
+}
+
+.search-submit{
+  background:white;
+  padding:6px;
+  border-radius:10px;
+}
+
+.navbar .container-fluid{
+  margin-right:20px;
+}
+
+
+.navbar{
+  /*background-color:#1A3F42;*/
+  background-color:white;
+  border-radius:0;
+  border-color:white;
+  box-shadow:-1px 1px 3px 1px lightgrey;
+}
+
+.nav li a{
+  color:grey;
+}
+
+.navbar .container-fluid .navbar-brand{
+  color:black;
+  padding-left:15px;
+  margin-left:10px;
+}
+
+
+/* Login/Signup Page */
+
+.Auth{
+  margin-top:40px;
+  background-color:rgb(22, 35, 39);
+  text-align:center;
+  opacity:.9;
+  border-radius:20px;
+  font-family: 'century gothic';
+  padding:15px;
+  width:25%;
+  min-width:300px;
+  overflow:auto;
+}
+.Auth h2,.Auth p{
+  color:white;
+}
+.Auth input{
+  text-align:center;
+  margin: 5px 0 5px 0;
+}
+.Auth button{
+  float: right;
+  display: block;
+}
+.Auth a{
+  float:left;
+}
+
+.nameField input[name="first"]{
+  display:inline-block;
+  float:left;
+  margin: 5px 5px 5px 0;
+  width:48%;
+}
+
+.nameField input[name="last"]{
+  display:inline-block;
+  float:right;
+  margin: 5px 0 5px 5px;
+  width:48%;
+}
+
+.error{
+  display:inline-block;
+  margin-top:10px;
+  color:red;
+}
+
+/* New Thread Page */
+.newThread form{
+  width:40%;
+}
+
+.newThread img{
+  width:70px;
+  padding:-50px;
+  height:70px;
+}
+
+.newThread input[type="textarea"]{
+  height:200px;
+}
+
+.newThread input, .newThread button{
+  margin:10px;
+}
+
+.newComment input{
+  margin-bottom:20px;
+  height:60px;
+  width:400px;
+}
+
+
+/* Front Page */
+
+.card {
+  display:inline-block;
+  background: white;
+  width: 100%;
+  /*margin: 0 12px 12px 0 ;*/
+  margin-bottom:5px;
+  /*box-shadow:-1px 1px 3px 1px lightgrey;*/
+  padding: 10px;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+     -mox-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.showing{
+  text-align:center;
+}
+
+.frontPage h2{
+  display:inline-block;
+  font-style:none;
+  font-size:16px;
+  float:top;
+  margin-top:10px;
+}
+
+.frontPage img{
+  float:left;
+  width:50px;
+  height:50px;
+  margin-right:20px;
+}
+
+.frontPage .created{
+  font-size:12px;
+}
+
+.frontPage .info{
+  font-size:12px;
+  float:right;
+  margin-top:-70px;
+}
+
+.frontPage .info p{
+  margin: 0;
+  padding: 0;
+}
+
+.frontPage .title{
+  float:top;
+}
+
+.frontPage .title p{
+  font-size:14px;
+}
+
+.frontPage .votes{
+  float:left;
+  display:inline-block;
+  margin-right:27px;
+}
+
+.frontPage .tag{
+  background-color:#D4D4D4;
+  font-size:12px;
+  width:80px;
+  float:right;
+  display:inline-block;
+  margin-left:auto;
+  border-radius:20px;
+  text-align:center;
+}
+
+.glyphicon-chevron-down{
+  color:red;
+}
+
+.glyphicon-chevron-up{
+  color:green;
+}
+
+.updateInfo span{
+  float:right;
+}
+
+/* Sidebar */
+
+/* Sidebar - trending*/
+svg:not(:root){
+  border-radius:20px;
+  box-shadow:-3px 3px 5px 3px lightgrey;
+
+}
+
+.sidebar{
+  padding-left:0;
+  padding-right:20px;
+  margin:0;
+  left:0;
+}
+
+#sidebar-wrapper{
+  /*background:#1A3F42;*/
+  /*border: 1px solid black;*/
+  background:white;
+  box-shadow:-1px 1px 3px 1px lightgrey;
+}
+
+.sidebar-nav img{
+  width:230px;
+  height:140px;
+}
+
+.sidebar-nav {
+    /*position: absolute;*/
+    top: 0;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: black;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: black;
+    background: none;
+}
+
+.globalChat{
+  width:90%;
+  height:200px;
+  left:80%;
+  top:100%;
+  padding:5px;
+  box-shadow:-1px 1px 3px 1px lightgrey;
+}
+
+.globalChat ul{
+  margin:0;
+  padding:0;
+  height:88%;
+  list-style: none;
+}
+
+.globalChat li,span{
+  margin:0;
+  padding:0;
+  line-height: 1.2;
+}
+
+.globalChat input{
+  width:100%;
+  margin-top:auto;
+}
+
+/* Location */
+
+#map {
+  width: 100%;
+  height: 650px;
+  font-size:28px;
+  font-family:'century gothic';
+}
+
+.geoThread p{
+  margin:0;
+}
+
+.geoThread a{
+  font-size:22px;
+}
+
+.geoThread .body{
+  font-size: 18px;
+  margin-bottom:10px;
+}
+
+.geoThread .tag{
+  background-color:#D4D4D4;
+  font-size:12px;
+  width:80px;
+  display:inline-block;
+  margin-left:auto;
+  border-radius:20px;
+  text-align:center;
+}
+
+/* Thread (single) */
+
+.thread input{
+  width:100%;
+
+}
+
+.edit-icon{
+  float:right;
+  margin-right:5px;
+  margin-left:5px;
+}
+
+.delete-icon{
+  float:right;
+  margin-right:5px;
+  margin-left:5px;
+}
+
+.meta-info{
+  float:right;
+  text-align:right;
+  margin-top:-70px;
+
+}
+
+.meta-info p{
+  font-size:12px;
+  margin:0;
+  padding:0;
+}
+
+.thread .tag{
+  background-color:#D4D4D4;
+  font-size:12px;
+  width:80px;
+  display:inline-block;
+  margin-left:auto;
+  border-radius:20px;
+  text-align:center;
+}
+
+.friend-online-list{
+  margin:10px;
+}
