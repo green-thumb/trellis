@@ -1,9 +1,9 @@
 ![ScreenShot](http://i.imgur.com/F0m8twX.png)
 
-Fast, responsive boilerplate application to create your own Reddit.
-Combines a quick & reliable Go web server with React/Flux client.
+Easy package to deploy an intuitive community forum.
+Powered with Golang server and MySQL database, Trellis aims to help you bring together and manage your communities
 
-###[See Example](http://54.69.153.183:8080/)
+###[See Example]( URL HERE )
 
 ##Features
 * Threads / Comments
@@ -18,45 +18,19 @@ Combines a quick & reliable Go web server with React/Flux client.
 
 ##To Develop:
 
-1. Go to /server in terminal.
+1. Go to root directory (/) in terminal
 2. Start mySQL server by typing 'mysql.server start'
 3. Set up schema by typing 'mysql -u root < schema.sql'
-4. Start the server by running the below command (include more server files as they're added).
-
-  go run auth.go forum_threads.go chatter.go chat_events.go outbound.go chat_room.go server.go thread_posts.go users.go friends.go friend_hub.go friend_conn.go search.go
-
-5. Go to /pub folder
-6. npm install
-7. Run 'gulp'
-8. Edit the files in /app folder.
-
-
-##To Deploy:
-
-1. In the /pub, run 'gulp deploy'.
-2. Dist files will be built in /dist
+4. Run "npm install" at root
+4. Build the client files with "gulp" on root directory
+5. Start the server by running "go install", "go build", and "./trellis"
 
 
 ##To Test:
 
-1. In /pub, run 'gulp test'.
+1. Run 'gulp test'.
 2. Spec files are inside /specs.
 
-
-[Link to original repo](https://github.com/mikemsrk/go-flux)
-
-
-<!-- Options for branding/names
-A location-based message board.
-
-Grapevine
-Grapevines
-Trellis
-Arbor
-
-Corkboard
-Flyer
- -->
 
 
 
