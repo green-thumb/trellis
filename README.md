@@ -1,4 +1,4 @@
-![ScreenShot](http://i.imgur.com/F0m8twX.png)
+![ScreenShot](http://i.imgur.com/BfbiWio.png)
 
 Easy package to deploy an intuitive community forum.
 Powered with Golang server and MySQL database, Trellis aims to help you bring together and manage your communities
@@ -32,7 +32,7 @@ Powered with Golang server and MySQL database, Trellis aims to help you bring to
 2. Spec files are inside /specs.
 
 http://54.149.59.170:8080/
-docker run -it --rm -p 8000:8080 trellis4
+
 
 
 
