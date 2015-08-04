@@ -96,7 +96,7 @@ var Sidebar = React.createClass({
 
     return (
         <ul className="sidebar-nav">
-            <a href="#"><img src="/assets/logo.png"></img></a>
+            <a href="#"><img src="/assets/Trellis-logo.png" ></img></a>
             <li>
                 <a href="#">Trending (past 24 hours)</a>
                 <Treemap

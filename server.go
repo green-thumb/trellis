@@ -11,13 +11,13 @@ import (
   "net/url"
   "strconv"
   "strings"
-  "docker_app/golib/friend"
-  "docker_app/golib/chat"
-  "docker_app/golib/forum"
-  "docker_app/golib/message"
-  "docker_app/golib/search"
-  "docker_app/golib/user"
-  "docker_app/golib/auth"
+  "github.com/green-thumb/trellis/golib/friend"
+  "github.com/green-thumb/trellis/golib/chat"
+  "github.com/green-thumb/trellis/golib/forum"
+  "github.com/green-thumb/trellis/golib/message"
+  "github.com/green-thumb/trellis/golib/search"
+  "github.com/green-thumb/trellis/golib/user"
+  "github.com/green-thumb/trellis/golib/auth"
 )
 
 //"constant" variables to be used throughout the program

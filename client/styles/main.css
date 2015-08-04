@@ -368,7 +368,7 @@ svg:not(:root){
 }
 
 .sidebar-nav img{
-  width:230px;
+  width:190px;
   height:140px;
 }
 
@@ -523,3 +523,5 @@ svg:not(:root){
 .friend-online-list{
   margin:10px;
 }
+
+
