@@ -31,6 +31,8 @@ Powered with Golang server and MySQL database, Trellis aims to help you bring to
 1. Run 'gulp test'.
 2. Spec files are inside /specs.
 
+http://54.149.59.170:8080/
+docker run -it --rm -p 8000:8080 trellis4
 
 
 

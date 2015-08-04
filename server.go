@@ -11,13 +11,13 @@ import (
   "net/url"
   "strconv"
   "strings"
-  "trellis/golib/friend"
-  "trellis/golib/chat"
-  "trellis/golib/forum"
-  "trellis/golib/message"
-  "trellis/golib/search"
-  "trellis/golib/user"
-  "trellis/golib/auth"
+  "github.com/green-thumb/trellis/golib/friend"
+  "github.com/green-thumb/trellis/golib/chat"
+  "github.com/green-thumb/trellis/golib/forum"
+  "github.com/green-thumb/trellis/golib/message"
+  "github.com/green-thumb/trellis/golib/search"
+  "github.com/green-thumb/trellis/golib/user"
+  "github.com/green-thumb/trellis/golib/auth"
 )
 
 //"constant" variables to be used throughout the program
