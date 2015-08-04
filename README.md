@@ -3,8 +3,6 @@
 Easy package to deploy an intuitive community forum.
 Powered with Golang server and MySQL database, Trellis aims to help you bring together and manage your communities
 
-###[See Example]( URL HERE )
-
 ##Features
 * Threads / Comments
 * Search
@@ -31,6 +29,7 @@ Powered with Golang server and MySQL database, Trellis aims to help you bring to
 1. Run 'gulp test'.
 2. Spec files are inside /specs.
 
+##Example:
 http://54.149.59.170:8080/
 
 
